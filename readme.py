@@ -1,1 +1,1 @@
-# Snake game bu Nikita Plastun
+# Snake game by Nikita Plastun
