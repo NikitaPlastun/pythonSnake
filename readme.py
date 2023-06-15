@@ -1,1 +1,1 @@
-# test game
+# Snake game bu Nikita Plastun
