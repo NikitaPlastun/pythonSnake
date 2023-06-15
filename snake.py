@@ -2,6 +2,8 @@ import pygame
 import sys
 import random
 import pygame_menu
+from sys import exit
+
 pygame.init()
 
 bg_menu_color = (154, 205, 50)
@@ -129,7 +131,7 @@ def start_the_game():
         snake_blocks.pop(0)
 
 
-        timer.tick(3+speed)
+        timer.tick(2+speed)
 
 main_theme=pygame_menu.themes.THEME_DARK.copy()
 main_theme.set_background_color_opacity(0.6)
@@ -155,4 +157,3 @@ while True:
         menu.draw(screen)
 
     pygame.display.update()
-# :))
